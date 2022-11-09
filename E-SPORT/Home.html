@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-SPORT</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/stlye.css">
+</head>
+
+<body>
+    <section style="position: absolute;width: 100%;">
+        <nav class="navbar navbar-expand-lg bg-transparent">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="./Img/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="Home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="About.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="Galery.html">Galery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="Daftar-Artikel.html">Artikel</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasEnd" aria-controls="offcanvasend">List Game</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasEnd" aria-labelledby="offcanvasEndLabel"
+            style="background-image: url(./Img/bgabout.png);">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasEndLabel">List Game</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"
+                    style="color: aqua;"></button>
+            </div>
+            <div class="offcanvas-body small">
+                <div class="row row-cols-2">
+                    <div class="col mb-2" id="list-game">
+                        <a href="https://play.google.com/store/apps/details?id=com.mobile.legends" target="_blank">
+                            <img src="./Img/ml.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col mb-2" id="list-game">
+                        <a href="https://store.steampowered.com/app/389730/TEKKEN_7/" target="_blank">
+                            <img src="./Img/tekken7.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col mb-2" id="list-game">
+                        <a href="http://www.pubgmobile.com/id/home.shtml" target="_blank">
+                            <img src="./Img/PUBG MBL.jpeg" alt="">
+                        </a>
+                    </div>
+                    <div class="col mb-2" id="list-game">
+                        <a href="https://www.callofduty.com/warzone" target="_blank">
+                            <img src="./Img/codm.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col mb-2" id="list-game">
+                        <a href="https://www.dota2.com/home" target="_blank">
+                            <img src="./Img/dota2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col mb-2" id="list-game">
+                        <a href="https://www.ea.com/games/apex-legends/apex-legends-mobile" target="_blank">
+                            <img src="./Img/APEX.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col mb-2" id="list-game">
+                        <a href=" https://ff.garena.com/" target="_blank">
+                            <img src="./Img/free fire.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col mb-2" id="list-game">
+                        <a href=" https://genshin.hoyoverse.com/m/en/" target="_blank">
+                            <img src="./Img/gensin impact.webp" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section>
+        <div class="hero text-bg-dark"
+            style="background-image: url('./Img/landing.png');background-position: center;background-repeat: no-repeat;background-size: cover;">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-lg-2 align-content-center" style="height: 100vh;">
+                    <div class="col">
+                        <h1>Website Article</h1>
+                        <h1>E-Sport</h1>
+                        <p>An article games community made with some passionate gamers. In this article, we'll give you
+                            an update news about games, update version, and many more.</p>
+                        <div class="action mt-5">
+                            <a href="Daftar-Artikel.html" class="btn btn-primary  rounded-pill px-4 me-3">Baca
+                                Artikel</a>
+                            <a href="ContactUS.html" type="button"
+                                class="btn btn-outline-primary rounded-pill px-4">Contact US</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
